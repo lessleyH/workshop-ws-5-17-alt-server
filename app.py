@@ -11,6 +11,10 @@ def index():
 def bye_world():
     return "Bye World!"
 
+@app.route("/hi")
+def hi_world():
+    return "hi World!"
+
 @app.route("/hello")
 def hello_world():
     return "Hello World!"
